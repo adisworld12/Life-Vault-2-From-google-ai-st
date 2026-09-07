@@ -1,0 +1,6 @@
+{
+  "name": "LifeVault",
+  "description": "Digital guardianship and intelligent tracking for your essential documents, warranties, subscriptions, and reminders.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

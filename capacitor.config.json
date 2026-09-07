@@ -1,0 +1,23 @@
+{
+  "appId": "com.lifevault.app",
+  "appName": "LifeVault",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_vault",
+      "iconColor": "#6366f1",
+      "sound": "beep.wav"
+    },
+    "Camera": {
+      "presentationStyle": "fullscreen"
+    }
+  }
+}
